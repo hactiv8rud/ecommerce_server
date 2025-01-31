@@ -1,0 +1,199 @@
+[
+    {
+        "name" : "Kellogg's Corn Flakes 600g",
+        "image_url" : "https://i.imgur.com/dXK93K9.jpg",
+        "price" : 7.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Kellogg's Frosted Flakes 1.06kg",
+        "image_url" : "https://i.imgur.com/5nz923j.jpg",
+        "price" : 10.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+   
+     {
+        "name" : "Kellogg's Froot Loops 300g",
+        "image_url" : "https://i.imgur.com/HX9rSrw.png",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Kellogg's Corn Flakes Original 300g",
+        "image_url" : "https://i.imgur.com/UtaGbKE.png",
+        "price" : 4.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Kellogg's Corn Flakes Strawberry 300g",
+        "image_url" : "https://i.imgur.com/gHCmUe0.png",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Kellogg's Corn Flakes Honey 300g",
+        "image_url" : "https://i.imgur.com/gD7YVCU.png",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Kellogg's Corn Flakes Almond Honey 300g",
+        "image_url" : "https://i.imgur.com/UYA9tig.png",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Corn Flakes Gold Value Pack 1kg",
+        "image_url" : "https://i.imgur.com/o63YvS0.jpg",
+        "price" : 10.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Corn Flakes Gold 275g",
+        "image_url" : "https://i.imgur.com/3K1NZ0d.jpg",
+        "price" : 4.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Koko Krunch 300g",
+        "image_url" : "https://i.imgur.com/9jsuRGT.png",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Koko Krunch Cookie 330g",
+        "image_url" : "https://i.imgur.com/adGGsx7.jpg",
+        "price" : 7.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Koko Krunch Duo 170g",
+        "image_url" : "https://i.imgur.com/fgzLNGX.jpg",
+        "price" : 4.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Honey Stars Mix Trix 150g",
+        "image_url" : "https://i.imgur.com/uTzkW6T.png",
+        "price" : 3.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Nestle Honey Stars 300g",
+        "image_url" : "https://i.imgur.com/uzb4ZAv.jpg",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 1
+    },
+    {
+        "name" : "Skippy Chunky Peanut Butter 462g",
+        "image_url" : "https://i.imgur.com/NMIkgcX.jpg",
+        "price" : 8.99,
+        "stock" : 100,
+        "CategoryId" : 2
+    },
+    {
+        "name" : "Skippy Creamy Peanut Butter 462g",
+        "image_url" : "https://i.imgur.com/4tkKruZ.jpg",
+        "price" : 8.99,
+        "stock" : 100,
+        "CategoryId" : 2
+    },
+    {
+        "name" : "Skippy Roasted Honey Nut Creamy Peanut Butter 462g",
+        "image_url" : "https://i.imgur.com/cS1t1MV.jpg",
+        "price" : 8.99,
+        "stock" : 100,
+        "CategoryId" : 2
+    },
+    {
+        "name" : "Yoplait Strawberry Yoghurt 650g",
+        "image_url" : "https://i.imgur.com/p7pYiuH.png",
+        "price" : 3.99,
+        "stock" : 100,
+        "CategoryId" : 3
+    },
+    {
+        "name" : "iogo Blueberry Yoghurt 650g",
+        "image_url" : "https://i.imgur.com/apEWUfD.jpg",
+        "price" : 3.99,
+        "stock" : 100,
+        "CategoryId" : 3
+    },
+    {
+        "name" : "iogo Cherry Yoghurt 650g",
+        "image_url" : "https://i.imgur.com/FZ4Mmlw.jpg",
+        "price" : 3.99,
+        "stock" : 100,
+        "CategoryId" : 3
+    },
+    {
+        "name" : "iogo Drinkable Yoghurt 6x93ml",
+        "image_url" : "https://i.imgur.com/8MJYKVt.png",
+        "price" : 1.99,
+        "stock" : 100,
+        "CategoryId" : 3
+    },
+    {
+        "name" : "Dairyland Chocolate Milk 1% 473ml",
+        "image_url" : "https://i.imgur.com/dgHHPmB.jpg",
+        "price" : 2.99,
+        "stock" : 100,
+        "CategoryId" : 4
+    },
+    {
+        "name" : "Dairyland Milk 2% 1.89L",
+        "image_url" : "https://i.imgur.com/DSYXphZ.jpg",
+        "price" : 4.99,
+        "stock" : 100,
+        "CategoryId" : 4
+    },
+    {
+        "name" : "Dairyland Milk 3.25% 1.89L",
+        "image_url" : "https://i.imgur.com/Z83OHwG.jpg",
+        "price" : 4.99,
+        "stock" : 100,
+        "CategoryId" : 4
+    },
+    {
+        "name" : "PC Organic Blueberries 277g",
+        "image_url" : "https://i.imgur.com/kgIzkqf.png",
+        "price" : 7.99,
+        "stock" : 100,
+        "CategoryId" : 5
+    },
+    {
+        "name" : "PC Ontario Strawberries 340g",
+        "image_url" : "https://i.imgur.com/N25UzkW.png",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 5
+    },
+    {
+        "name" : "Driscoll's Organic Blackberries 170g",
+        "image_url" : "https://i.imgur.com/I3P79Qz.jpg",
+        "price" : 6.99,
+        "stock" : 100,
+        "CategoryId" : 5
+    },
+    {
+        "name" : "Driscoll's Organic Raspberries 500g",
+        "image_url" : "https://i.imgur.com/sCJOxmq.jpg",
+        "price" : 12.99,
+        "stock" : 100,
+        "CategoryId" : 5
+    }
+]
