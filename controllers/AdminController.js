@@ -15,6 +15,11 @@ class AdminController {
                         status: 401,
                         message: "Email or password is invalid."
                     }
+                } else if(data.role !== "admin") {
+                    throw {
+                        status: 401,
+                        message: "Only store administrators can sign in to this CMS website. For customers, please visit the Shoppal online store."
+                    }
                 } else if (compare(req.body.password, data.password)) {
                         const access_token = sign(data.id, data.email, data.role);
                         res.status(200).json({ access_token, fullName: data.getFullName() });
