@@ -22,6 +22,8 @@ class AdminController {
                     }
                 } else if (compare(req.body.password, data.password)) {
                         const access_token = sign(data.id, data.email, data.role);
+                        console.log(access_token, "<<<<<<<admin controller")
+
                         res.status(200).json({ access_token, fullName: data.getFullName() });
                 } else {
                     throw {

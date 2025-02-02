@@ -11,14 +11,15 @@ module.exports = async (req, res, next) => {
             }
         } else {
             const decoded = verifyToken(access_token);
+            console.log(decoded, "<<<<<<<<authentication");
             req.loggedInUser = decoded;
             const user = await User.findOne({
                 where: {
                     id: decoded.id
                 }
             })
-            
             if (user) {
+                console.log(user.email, "<<<<<<<<authentication2");
                 next();
             } else {
                 throw {
