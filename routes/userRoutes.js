@@ -9,6 +9,6 @@ route.post("/customer/login", CustomerController.login);
 // route.post("/customer/googleLogin", CustomerController.googleLogin);
 
 route.use(authentication);
-route.get("/customer/profile", CustomerController.getProfile);
+route.post("/customer/profile", CustomerController.getProfile);
 
 module.exports = route;

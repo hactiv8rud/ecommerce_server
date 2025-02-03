@@ -8,8 +8,8 @@ const wishlistRoutes = require("./wishlistRoutes");
 const ProductController = require("../controllers/ProductController");
 const CategoryController = require("../controllers/CategoryController");
 
-route.get("/products", ProductController.read);
-route.get("/categories", CategoryController.read);
+route.post("/products", ProductController.read);
+route.post("/categories", CategoryController.read);
 
 route.use(userRoutes);
 route.use("/products", productRoutes);

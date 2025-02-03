@@ -5,7 +5,7 @@ const authorizationCustomerWishlist = require("../middlewares/authorizationCusto
 const authorizationCustomerWishlistFromProduct = require("../middlewares/authorizationCustomerWishlistFromProduct");
 
 route.use(authentication);
-route.get("/", WishlistController.read);
+route.post("/", WishlistController.read);
 route.post("/:ProductId", WishlistController.add);
 
 route.delete("/:id", authorizationCustomerWishlist, WishlistController.delete);

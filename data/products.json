@@ -195,5 +195,12 @@
         "price" : 12.99,
         "stock" : 100,
         "CategoryId" : 5
+    },
+    {
+        "name" : "Zuru Smasher Dino Island T-Rex Battles - 2 Dinos with Weapons",
+        "image_url" : "https://i.imgur.com/3tFb6Av.jpg",
+        "price" : 74.99,
+        "stock" : 100,
+        "CategoryId" : 6
     }
 ]

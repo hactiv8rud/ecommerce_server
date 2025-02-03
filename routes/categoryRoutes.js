@@ -4,8 +4,8 @@ const authentication = require("../middlewares/authentication");
 const authorizationAdmin = require("../middlewares/authorizationAdmin");
 
 route.use(authorizationAdmin);
-route.post("/", CategoryController.add);
-route.get("/:id", CategoryController.findByPk);
+route.post("/add", CategoryController.add);
+route.post("/:id", CategoryController.findByPk);
 route.put("/:id", CategoryController.put);
 route.delete("/:id", CategoryController.delete);
 
